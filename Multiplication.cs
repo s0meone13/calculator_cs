@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    public static class Subtraction
+    public static class Multiplication
     {
         public static void PerformOperation(int a, int b)
         {
-            Console.WriteLine($"Результат вычитания A - B: {a - b}");
+            Console.WriteLine($"Результат умножения A * B: {a * b}");
         }
     }
 }
