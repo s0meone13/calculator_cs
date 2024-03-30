@@ -1,4 +1,5 @@
 ﻿using System;
+using calculator;
 
 class Program
 {
@@ -27,33 +28,22 @@ class Program
             switch (choice)
             {
                 case '1':
-                    Console.WriteLine("Введите значение A:");
-                    a = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Вы ввели A = " + a);
+                    InputA.InputValue(ref a, "Введите значение A:");
                     break;
                 case '2':
-                    Console.WriteLine("Введите значение B:");
-                    b = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Вы ввели B = " + b);
+                    InputB.InputValue(ref b, "Введите значение B:");
                     break;
                 case '3':
-                    Console.WriteLine($"Результат сложения A + B: {a + b}");
+                    Addition.PerformOperation(a, b);
                     break;
                 case '4':
-                    Console.WriteLine($"Результат вычитания A - B: {a - b}");
+                    Subtraction.PerformOperation(a, b);
                     break;
                 case '5':
-                    Console.WriteLine($"Результат умножения A * B: {a * b}");
+                    Multiplication.PerformOperation(a, b);
                     break;
                 case '6':
-                    if (b != 0)
-                    {
-                        Console.WriteLine($"Результат деления A / B: {(double)a / b}");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Деление на ноль невозможно.");
-                    }
+                    Division.PerformOperation(a, b);
                     break;
                 case '0':
                     Console.WriteLine("Программа завершена.");
@@ -67,3 +57,13 @@ class Program
         } while (choice != '0');
     }
 }
+
+
+
+
+
+
+
+
+
+

@@ -12,3 +12,4 @@ C:\Users\student\Desktop\садовникова практика\calculator\calc
 C:\Users\student\Desktop\садовникова практика\calculator\calculator\obj\Debug\net8.0\calculator.pdb
 C:\Users\student\Desktop\садовникова практика\calculator\calculator\obj\Debug\net8.0\calculator.genruntimeconfig.cache
 C:\Users\student\Desktop\садовникова практика\calculator\calculator\obj\Debug\net8.0\ref\calculator.dll
+C:\Users\student\Desktop\садовникова практика\calculator\calculator\obj\Debug\net8.0\calculator.sourcelink.json
